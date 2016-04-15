@@ -16,17 +16,17 @@
 @property (weak, nonatomic) IBOutlet UILabel *musicName;
 
 @property (weak, nonatomic) IBOutlet UILabel *singerName;
+
 @end
 
 @implementation MusicTableViewCell
 
-//- (void)awakeFromNib{
-//    
-//    
-//    
-//    [self setupUI];
-//
-//}
+
++ (instancetype)initWithCell{
+    
+    return [[NSBundle mainBundle] loadNibNamed:@"MusicTableViewCell" owner:self options:nil].lastObject;
+}
+
 - (instancetype)initWithCoder:(NSCoder *)coder
 {
     self = [super initWithCoder:coder];
@@ -36,39 +36,20 @@
     return self;
 }
 
-- (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
-        
-        if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
-            
-            // 设置被选择的样式
-            self.selectionStyle = UITableViewCellSelectionStyleNone;
-            
-            // 进行控件的初始化
-            [self setupUI];
-            
-        }
-        
-        return self;
-    }
-- (void)layoutSubviews{
-    [super layoutSubviews];
-    
-    [self setupUI];
-    
-}
 - (void)setupUI{
     
     self.backgroundColor = [UIColor clearColor];
-    
-    
 }
+// 赋值
 - (void)setModel:(Music *)model{
     
     _model = model;
     
     _iconImage.image = [UIImage imageNamed:model.image];
     
-    _iconImage.layer.cornerRadius = _iconImage.image.size.width *.5;
+    _iconImage.layer.cornerRadius = (_height - 20) * .5;
+    
+    _iconImage.layer.masksToBounds = YES;
     
     _musicName.text = model.name;
     

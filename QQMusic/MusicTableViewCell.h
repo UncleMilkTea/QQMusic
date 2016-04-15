@@ -10,7 +10,10 @@
 @class Music;
 
 @interface MusicTableViewCell : UITableViewCell
-
+//! 模型
 @property(strong,nonatomic) Music *model;
-
+//! cell高度
+@property (assign, nonatomic) CGFloat height;
+//! 初始化
++ (instancetype)initWithCell;
 @end

@@ -59,10 +59,13 @@
     MusicTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:identifier];
     
     if (nil == cell) {
-        cell = [[MusicTableViewCell alloc]initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:identifier];
+        
+        cell = [MusicTableViewCell initWithCell] ;
     }
     
     Music *model = self.musicArray[indexPath.row];
+    
+    cell.height = self.rowHeight;
     
     cell.model = model;
     
@@ -71,11 +74,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     
-//    NSLog(@"%zd",indexPath.row);
-    
     [[NSNotificationCenter defaultCenter] postNotificationName:@"changeMusic" object:indexPath];
-    
-    
 }
 
 #pragma mark - 懒加载

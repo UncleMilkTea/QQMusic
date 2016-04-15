@@ -95,6 +95,7 @@
         make.width.equalTo(self);
         make.height.equalTo(30);
     }];
+    
     // 分页
     UIPageControl *page = [[UIPageControl alloc]init];
     self.page = page;
@@ -102,6 +103,16 @@
     self.page.userInteractionEnabled = NO;
     [self addSubview:page];
     
+    // 接收切歌通知
+    [[NSNotificationCenter defaultCenter] addObserverForName:@"changeMusic" object:nil queue:[NSOperationQueue mainQueue] usingBlock:^(NSNotification * _Nonnull note) {
+        
+        [UIView animateWithDuration:1 animations:^{
+            
+            // 滚动到播放界面
+            self.hScrollView.contentOffset = CGPointMake(self.bounds.size.width, 0);
+            
+        }];
+    }];
 }
 
 - (void)layoutSubviews
