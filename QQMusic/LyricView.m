@@ -189,10 +189,12 @@
 - (void)vScrollViewDidScroll
 {
     //    NSLog(@"%f",self.vScrollView.contentOffset.y / self.rowHeight);
+    
     // 获取滚动位置的歌词索引
     NSInteger lyricIndex = (self.vScrollView.contentOffset.y + self.vScrollView.contentInset.top) / self.rowHeight;
     
 //    NSLog(@"%zd",lyricIndex);
+    
     // 屏蔽向下拉和向上拖动时的越界
     if (lyricIndex < 0) {
         
@@ -217,7 +219,8 @@
     
     self.page.currentPage = (NSInteger)(progress);
     
-    NSLog(@"progress%f",progress);
+//    NSLog(@"progress%f",progress);
+    
     // 代理方法传递值
     if ([self.delegate respondsToSelector:@selector(lyricView:withProgress:)]) {
         
@@ -262,6 +265,7 @@
 {
     // preLabel 上一个歌词的label
     UIColorLabel *preLabel = self.vScrollView.subviews[self.currentLyricIndex];
+    
     // 修改播放过的歌词label字体为白色
     preLabel.progress = 0;
     

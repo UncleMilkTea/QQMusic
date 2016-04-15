@@ -17,13 +17,13 @@
 
 @interface SliderView ()
 
-/// 背景图片
+// 背景图片
 @property (nonatomic, weak) UIImageView *bgImageView;
-/// 时间
+// 时间
 @property (nonatomic, weak) UILabel *timeLabel;
-/// 提示
+// 提示
 @property (nonatomic, weak) UILabel *tipLabel;
-/// 播放按钮
+// 播放按钮
 @property (nonatomic, weak) UIButton *playBtn;
 
 @end
@@ -77,6 +77,7 @@
     timeLabel.text = @"00:00";
     // 提示文字
     tipLabel.text = @"请点击右边按钮从这行开始播放";
+    
     // 按钮的图片
     [playBtn setImage:[UIImage imageNamed:@"slide_icon_play"] forState:UIControlStateNormal];
     [playBtn setImage:[UIImage imageNamed:@"slide_icon_play_pressed"] forState:UIControlStateHighlighted];

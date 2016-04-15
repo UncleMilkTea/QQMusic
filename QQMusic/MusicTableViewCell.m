@@ -21,7 +21,7 @@
 
 @implementation MusicTableViewCell
 
-
+// 加载xib
 + (instancetype)initWithCell{
     
     return [[NSBundle mainBundle] loadNibNamed:@"MusicTableViewCell" owner:self options:nil].lastObject;

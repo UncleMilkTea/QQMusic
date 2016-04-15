@@ -10,9 +10,9 @@
 
 @interface MusicLyric : NSObject
 
-//!> 歌词内容
+//! 歌词内容
 @property(copy,nonatomic) NSString *content;
-//!> 歌词开始时间
+//! 歌词开始时间
 @property(assign,nonatomic) NSTimeInterval time;
 
 @end

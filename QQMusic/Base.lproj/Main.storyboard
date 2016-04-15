@@ -302,7 +302,7 @@
                                             <rect key="frame" x="40" y="285" width="720" height="20"/>
                                         </variation>
                                     </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="侯玉昆" translatesAutoresizingMaskIntoConstraints="NO" id="XJR-ck-Hb9">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="suger" translatesAutoresizingMaskIntoConstraints="NO" id="XJR-ck-Hb9">
                                         <rect key="frame" x="200" y="91" width="200" height="200"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="200" id="SFC-tP-DcD"/>
@@ -470,6 +470,6 @@
         <image name="landscape_player_btn_play_press" width="120" height="100"/>
         <image name="landscape_player_btn_pre_normal" width="120" height="100"/>
         <image name="landscape_player_btn_pre_press" width="120" height="100"/>
-        <image name="侯玉昆" width="200" height="200"/>
+        <image name="suger" width="200" height="200"/>
     </resources>
 </document>

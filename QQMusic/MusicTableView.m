@@ -13,9 +13,9 @@
 #import "MusicTableViewCell.h"
 
 @interface MusicTableView ()<UITableViewDelegate,UITableViewDataSource>
-
+//歌曲数组
 @property(strong,nonatomic) NSArray *musicArray;
-
+//歌曲模型
 @property(strong,nonatomic) Music *model;
 
 @end
@@ -47,6 +47,7 @@
     
 }
 
+#pragma mark - 数据源
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     
     return self.musicArray.count;

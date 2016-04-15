@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface UIColorLabel : UILabel
+
 @property(strong,nonatomic) UIColor *currentColor;
 
 @property(assign,nonatomic) CGFloat progress;

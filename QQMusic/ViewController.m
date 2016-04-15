@@ -90,6 +90,11 @@
     
     [self changeMusic];
     
+    // 改变滑块样式
+    //注意这里要加UIControlStateHightlighted的状态，否则当拖动滑块时滑块将变成原生的控件
+    [_slider setThumbImage:[UIImage imageNamed:@"slider15x15"] forState:UIControlStateHighlighted];
+    [_slider setThumbImage:[UIImage imageNamed:@"slider15x15"] forState:UIControlStateNormal];
+    
     //监听歌词打断处理
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(audioSessionInterruptionNotification:) name:AVAudioSessionInterruptionNotification object:nil];
     
