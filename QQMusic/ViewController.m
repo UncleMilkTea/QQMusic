@@ -347,7 +347,19 @@
     // 设置字体颜色
     [[UIColor whiteColor] set];
     // 4.画歌词
-    [lyric.content drawInRect:CGRectMake(0, bgImageY + 10, albumImage.size.width, 30) withFont:[UIFont systemFontOfSize:16] lineBreakMode:NSLineBreakByWordWrapping alignment:NSTextAlignmentCenter];
+//    [lyric.content drawInRect:CGRectMake(0, bgImageY + 10, albumImage.size.width, 30) withFont:[UIFont systemFontOfSize:16] lineBreakMode:NSLineBreakByWordWrapping alignment:NSTextAlignmentCenter];
+    
+    NSMutableParagraphStyle *paragraph=[[NSMutableParagraphStyle alloc]init];
+    paragraph.alignment=NSTextAlignmentCenter;//居中
+    paragraph.lineBreakMode = NSLineBreakByWordWrapping;//换行方式
+    
+    NSDictionary *attr = @{
+                          NSFontAttributeName:[UIFont systemFontOfSize:16],//字体大小
+                          NSParagraphStyleAttributeName:paragraph,//段落格式
+                          };
+    
+    [lyric.content drawInRect:CGRectMake(0, bgImageY + 10, albumImage.size.width, 30) withAttributes:attr];
+    
     // 5.取出图片
     UIImage *finalImage = UIGraphicsGetImageFromCurrentImageContext();
     // 6.关闭上下文
