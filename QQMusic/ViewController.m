@@ -92,7 +92,18 @@
     
     //监听歌词打断处理
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(audioSessionInterruptionNotification:) name:AVAudioSessionInterruptionNotification object:nil];
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(changeMusic:) name:@"changeMusic" object:nil];
 
+}
+
+- (void)changeMusic:(NSNotification *)noty{
+    
+    NSIndexPath *indexPath = (NSIndexPath *)noty.object;
+
+    _currentMusic = indexPath.row;
+    
+    [self changeMusic];
 }
 #pragma mark - 歌词打断处理
 - (void)audioSessionInterruptionNotification:(NSNotification *)noti{
@@ -176,9 +187,7 @@
 #pragma mark - 进度条
 - (IBAction)slider:(UISlider *)sender {
     
-    PlayManager *playManager = [PlayManager sharedPlayManager];
-    
-    playManager.play.currentTime = _slider.value * playManager.play.duration;
+    _playManager.play.currentTime = _slider.value * _playManager.play.duration;
     
 }
 
@@ -197,7 +206,7 @@
     
     _vBackGroundImage.image = _hBackGroundImage.image;
     
-    _album.text = music.album;
+    _album.text =[NSString stringWithFormat:@"专辑:%@",music.album];
     
     _play.selected = NO;
     
@@ -359,7 +368,7 @@
 
 - (void)lyricView:(LyricView *)lyricView withProgress:(CGFloat)progress{
     
-    _vCenterView.alpha = 1 - progress;
+    _vCenterView.alpha = progress > 1 ?  2 - progress : progress;
     
 }
 

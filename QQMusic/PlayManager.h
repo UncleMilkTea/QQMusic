@@ -13,6 +13,7 @@
 
 + (instancetype)sharedPlayManager;
 
+// 播放文件并
 - (void)playMusicWithFileName:(NSString *)fileName didComplete:(void(^)())complete;
 // 播放
 @property (strong, nonatomic)AVAudioPlayer *play;

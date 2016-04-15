@@ -12,22 +12,19 @@
 		8809DBD61CBF828B0095F7CE /* TimeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8809DBD51CBF828B0095F7CE /* TimeTool.m */; };
 		8809DBF61CBF86EF0095F7CE /* 夏婉安 - 六楼.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 8809DBE41CBF86EF0095F7CE /* 夏婉安 - 六楼.lrc */; };
 		8809DBF71CBF86EF0095F7CE /* 夏婉安 - 六楼.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8809DBE51CBF86EF0095F7CE /* 夏婉安 - 六楼.mp3 */; };
-		8809DBF81CBF86EF0095F7CE /* 夏婉安 - 六楼.png in Resources */ = {isa = PBXBuildFile; fileRef = 8809DBE61CBF86EF0095F7CE /* 夏婉安 - 六楼.png */; };
 		8809DBF91CBF86EF0095F7CE /* 朋友陪你醉.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 8809DBE71CBF86EF0095F7CE /* 朋友陪你醉.lrc */; };
 		8809DBFA1CBF86EF0095F7CE /* 朋友陪你醉.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8809DBE81CBF86EF0095F7CE /* 朋友陪你醉.mp3 */; };
-		8809DBFB1CBF86EF0095F7CE /* 沐子希.png in Resources */ = {isa = PBXBuildFile; fileRef = 8809DBE91CBF86EF0095F7CE /* 沐子希.png */; };
 		8809DBFC1CBF86EF0095F7CE /* 谢春花 - 借我.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 8809DBEA1CBF86EF0095F7CE /* 谢春花 - 借我.lrc */; };
 		8809DBFD1CBF86EF0095F7CE /* 谢春花 - 借我.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8809DBEB1CBF86EF0095F7CE /* 谢春花 - 借我.mp3 */; };
-		8809DBFE1CBF86EF0095F7CE /* 谢春花 - 借我.png in Resources */ = {isa = PBXBuildFile; fileRef = 8809DBEC1CBF86EF0095F7CE /* 谢春花 - 借我.png */; };
 		8809DC001CBF86EF0095F7CE /* 谢春花 - 雀斑少女.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8809DBEE1CBF86EF0095F7CE /* 谢春花 - 雀斑少女.mp3 */; };
-		8809DC011CBF86EF0095F7CE /* 谢春花.png in Resources */ = {isa = PBXBuildFile; fileRef = 8809DBEF1CBF86EF0095F7CE /* 谢春花.png */; };
 		8809DC021CBF86EF0095F7CE /* 赵雷 - 南方姑娘.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 8809DBF01CBF86EF0095F7CE /* 赵雷 - 南方姑娘.lrc */; };
 		8809DC031CBF86EF0095F7CE /* 赵雷 - 南方姑娘.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8809DBF11CBF86EF0095F7CE /* 赵雷 - 南方姑娘.mp3 */; };
-		8809DC041CBF86EF0095F7CE /* 赵雷 - 南方姑娘.png in Resources */ = {isa = PBXBuildFile; fileRef = 8809DBF21CBF86EF0095F7CE /* 赵雷 - 南方姑娘.png */; };
 		8809DC051CBF86EF0095F7CE /* 静静的看着你装逼.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 8809DBF31CBF86EF0095F7CE /* 静静的看着你装逼.lrc */; };
 		8809DC061CBF86EF0095F7CE /* 静静的看着你装逼.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8809DBF41CBF86EF0095F7CE /* 静静的看着你装逼.mp3 */; };
-		8809DC071CBF86EF0095F7CE /* 静静的看着你装逼.png in Resources */ = {isa = PBXBuildFile; fileRef = 8809DBF51CBF86EF0095F7CE /* 静静的看着你装逼.png */; };
 		8809DC111CBF8FB50095F7CE /* 谢春花 - 雀斑少女.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 8809DC101CBF8FB50095F7CE /* 谢春花 - 雀斑少女.lrc */; };
+		A20FF8CC1CBFEFCA00F05F9A /* MusicTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A20FF8CB1CBFEFCA00F05F9A /* MusicTableView.m */; };
+		A20FF8CF1CC0059000F05F9A /* MusicTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A20FF8CE1CC0059000F05F9A /* MusicTableViewCell.m */; };
+		A20FF8D51CC0067500F05F9A /* MusicTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A20FF8D41CC0067500F05F9A /* MusicTableViewCell.xib */; };
 		A21C0B1D1CB9FAFE007F2155 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A21C0B1C1CB9FAFE007F2155 /* main.m */; };
 		A21C0B201CB9FAFE007F2155 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A21C0B1F1CB9FAFE007F2155 /* AppDelegate.m */; };
 		A21C0B231CB9FAFE007F2155 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A21C0B221CB9FAFE007F2155 /* ViewController.m */; };
@@ -71,22 +68,21 @@
 		8809DBD51CBF828B0095F7CE /* TimeTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeTool.m; sourceTree = "<group>"; };
 		8809DBE41CBF86EF0095F7CE /* 夏婉安 - 六楼.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "夏婉安 - 六楼.lrc"; sourceTree = "<group>"; };
 		8809DBE51CBF86EF0095F7CE /* 夏婉安 - 六楼.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "夏婉安 - 六楼.mp3"; sourceTree = "<group>"; };
-		8809DBE61CBF86EF0095F7CE /* 夏婉安 - 六楼.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "夏婉安 - 六楼.png"; sourceTree = "<group>"; };
 		8809DBE71CBF86EF0095F7CE /* 朋友陪你醉.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "朋友陪你醉.lrc"; sourceTree = "<group>"; };
 		8809DBE81CBF86EF0095F7CE /* 朋友陪你醉.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "朋友陪你醉.mp3"; sourceTree = "<group>"; };
-		8809DBE91CBF86EF0095F7CE /* 沐子希.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "沐子希.png"; sourceTree = "<group>"; };
 		8809DBEA1CBF86EF0095F7CE /* 谢春花 - 借我.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "谢春花 - 借我.lrc"; sourceTree = "<group>"; };
 		8809DBEB1CBF86EF0095F7CE /* 谢春花 - 借我.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "谢春花 - 借我.mp3"; sourceTree = "<group>"; };
-		8809DBEC1CBF86EF0095F7CE /* 谢春花 - 借我.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "谢春花 - 借我.png"; sourceTree = "<group>"; };
 		8809DBEE1CBF86EF0095F7CE /* 谢春花 - 雀斑少女.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "谢春花 - 雀斑少女.mp3"; sourceTree = "<group>"; };
-		8809DBEF1CBF86EF0095F7CE /* 谢春花.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "谢春花.png"; sourceTree = "<group>"; };
 		8809DBF01CBF86EF0095F7CE /* 赵雷 - 南方姑娘.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "赵雷 - 南方姑娘.lrc"; sourceTree = "<group>"; };
 		8809DBF11CBF86EF0095F7CE /* 赵雷 - 南方姑娘.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "赵雷 - 南方姑娘.mp3"; sourceTree = "<group>"; };
-		8809DBF21CBF86EF0095F7CE /* 赵雷 - 南方姑娘.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "赵雷 - 南方姑娘.png"; sourceTree = "<group>"; };
 		8809DBF31CBF86EF0095F7CE /* 静静的看着你装逼.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "静静的看着你装逼.lrc"; sourceTree = "<group>"; };
 		8809DBF41CBF86EF0095F7CE /* 静静的看着你装逼.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "静静的看着你装逼.mp3"; sourceTree = "<group>"; };
-		8809DBF51CBF86EF0095F7CE /* 静静的看着你装逼.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "静静的看着你装逼.png"; sourceTree = "<group>"; };
 		8809DC101CBF8FB50095F7CE /* 谢春花 - 雀斑少女.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "谢春花 - 雀斑少女.lrc"; sourceTree = "<group>"; };
+		A20FF8CA1CBFEFCA00F05F9A /* MusicTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicTableView.h; sourceTree = "<group>"; };
+		A20FF8CB1CBFEFCA00F05F9A /* MusicTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicTableView.m; sourceTree = "<group>"; };
+		A20FF8CD1CC0059000F05F9A /* MusicTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicTableViewCell.h; sourceTree = "<group>"; };
+		A20FF8CE1CC0059000F05F9A /* MusicTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicTableViewCell.m; sourceTree = "<group>"; };
+		A20FF8D41CC0067500F05F9A /* MusicTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MusicTableViewCell.xib; sourceTree = "<group>"; };
 		A21C0B181CB9FAFE007F2155 /* QQMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QQMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A21C0B1C1CB9FAFE007F2155 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A21C0B1E1CB9FAFE007F2155 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -173,22 +169,16 @@
 			children = (
 				8809DBE41CBF86EF0095F7CE /* 夏婉安 - 六楼.lrc */,
 				8809DBE51CBF86EF0095F7CE /* 夏婉安 - 六楼.mp3 */,
-				8809DBE61CBF86EF0095F7CE /* 夏婉安 - 六楼.png */,
 				8809DBE71CBF86EF0095F7CE /* 朋友陪你醉.lrc */,
 				8809DBE81CBF86EF0095F7CE /* 朋友陪你醉.mp3 */,
-				8809DBE91CBF86EF0095F7CE /* 沐子希.png */,
 				8809DBEA1CBF86EF0095F7CE /* 谢春花 - 借我.lrc */,
 				8809DBEB1CBF86EF0095F7CE /* 谢春花 - 借我.mp3 */,
-				8809DBEC1CBF86EF0095F7CE /* 谢春花 - 借我.png */,
 				8809DBEE1CBF86EF0095F7CE /* 谢春花 - 雀斑少女.mp3 */,
 				8809DC101CBF8FB50095F7CE /* 谢春花 - 雀斑少女.lrc */,
-				8809DBEF1CBF86EF0095F7CE /* 谢春花.png */,
 				8809DBF01CBF86EF0095F7CE /* 赵雷 - 南方姑娘.lrc */,
 				8809DBF11CBF86EF0095F7CE /* 赵雷 - 南方姑娘.mp3 */,
-				8809DBF21CBF86EF0095F7CE /* 赵雷 - 南方姑娘.png */,
 				8809DBF31CBF86EF0095F7CE /* 静静的看着你装逼.lrc */,
 				8809DBF41CBF86EF0095F7CE /* 静静的看着你装逼.mp3 */,
-				8809DBF51CBF86EF0095F7CE /* 静静的看着你装逼.png */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -328,6 +318,11 @@
 				8809DBCF1CBF82710095F7CE /* LyricView.m */,
 				A21C0BB81CBA136C007F2155 /* UIColorLabel.h */,
 				A21C0BB91CBA136C007F2155 /* UIColorLabel.m */,
+				A20FF8CA1CBFEFCA00F05F9A /* MusicTableView.h */,
+				A20FF8CB1CBFEFCA00F05F9A /* MusicTableView.m */,
+				A20FF8CD1CC0059000F05F9A /* MusicTableViewCell.h */,
+				A20FF8CE1CC0059000F05F9A /* MusicTableViewCell.m */,
+				A20FF8D41CC0067500F05F9A /* MusicTableViewCell.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -425,21 +420,16 @@
 				8809DC031CBF86EF0095F7CE /* 赵雷 - 南方姑娘.mp3 in Resources */,
 				8809DBFD1CBF86EF0095F7CE /* 谢春花 - 借我.mp3 in Resources */,
 				8809DBF71CBF86EF0095F7CE /* 夏婉安 - 六楼.mp3 in Resources */,
-				8809DC011CBF86EF0095F7CE /* 谢春花.png in Resources */,
 				8809DBF91CBF86EF0095F7CE /* 朋友陪你醉.lrc in Resources */,
-				8809DBFB1CBF86EF0095F7CE /* 沐子希.png in Resources */,
 				A21C0B281CB9FAFE007F2155 /* Assets.xcassets in Resources */,
 				8809DC051CBF86EF0095F7CE /* 静静的看着你装逼.lrc in Resources */,
-				8809DBF81CBF86EF0095F7CE /* 夏婉安 - 六楼.png in Resources */,
 				8809DBFC1CBF86EF0095F7CE /* 谢春花 - 借我.lrc in Resources */,
-				8809DBFE1CBF86EF0095F7CE /* 谢春花 - 借我.png in Resources */,
 				A21C0B331CB9FBD0007F2155 /* mlist.plist in Resources */,
-				8809DC071CBF86EF0095F7CE /* 静静的看着你装逼.png in Resources */,
 				8809DBF61CBF86EF0095F7CE /* 夏婉安 - 六楼.lrc in Resources */,
+				A20FF8D51CC0067500F05F9A /* MusicTableViewCell.xib in Resources */,
 				8809DC111CBF8FB50095F7CE /* 谢春花 - 雀斑少女.lrc in Resources */,
 				8809DC001CBF86EF0095F7CE /* 谢春花 - 雀斑少女.mp3 in Resources */,
 				8809DC021CBF86EF0095F7CE /* 赵雷 - 南方姑娘.lrc in Resources */,
-				8809DC041CBF86EF0095F7CE /* 赵雷 - 南方姑娘.png in Resources */,
 				A21C0B261CB9FAFE007F2155 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -452,7 +442,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A21C0B551CB9FBD9007F2155 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				A20FF8CC1CBFEFCA00F05F9A /* MusicTableView.m in Sources */,
 				A21C0B531CB9FBD9007F2155 /* MASViewConstraint.m in Sources */,
+				A20FF8CF1CC0059000F05F9A /* MusicTableViewCell.m in Sources */,
 				A21C0B6E1CB9FBE4007F2155 /* MJExtensionConst.m in Sources */,
 				A21C0B701CB9FBE4007F2155 /* MJProperty.m in Sources */,
 				A21C0B741CB9FBE4007F2155 /* NSObject+MJCoding.m in Sources */,
@@ -590,9 +582,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = QQMusic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.suger.QQMusic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -602,9 +596,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = QQMusic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.suger.QQMusic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

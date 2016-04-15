@@ -104,6 +104,8 @@
 /// 点击滚动条上的播放按钮,从这行歌词开始播放
 - (void)playBtnClicked
 {
+    self.hidden = YES;
+    
     PlayManager *playManager = [PlayManager sharedPlayManager];
     
     playManager.play.currentTime = self.time;

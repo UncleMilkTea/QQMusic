@@ -4,17 +4,17 @@
 <array>
 	<dict>
 		<key>image</key>
-		<string>赵雷 - 南方姑娘.png</string>
+		<string>夏婉安 - 六楼.png</string>
 		<key>lrc</key>
-		<string>赵雷 - 南方姑娘.lrc</string>
+		<string>夏婉安 - 六楼.lrc</string>
 		<key>mp3</key>
-		<string>赵雷 - 南方姑娘.mp3</string>
+		<string>夏婉安 - 六楼.mp3</string>
 		<key>name</key>
-		<string>赵雷 - 南方姑娘</string>
+		<string>夏婉安 - 六楼</string>
 		<key>singer</key>
-		<string>赵雷</string>
+		<string>夏婉安</string>
 		<key>album</key>
-		<string>赵小雷</string>
+		<string>六楼</string>
 		<key>type</key>
 		<integer>2</integer>
 	</dict>
@@ -52,22 +52,6 @@
 	</dict>
 	<dict>
 		<key>image</key>
-		<string>夏婉安 - 六楼.png</string>
-		<key>lrc</key>
-		<string>夏婉安 - 六楼.lrc</string>
-		<key>mp3</key>
-		<string>夏婉安 - 六楼.mp3</string>
-		<key>name</key>
-		<string>夏婉安 - 六楼</string>
-		<key>singer</key>
-		<string>夏婉安</string>
-		<key>album</key>
-		<string>六楼</string>
-		<key>type</key>
-		<integer>2</integer>
-	</dict>
-	<dict>
-		<key>image</key>
 		<string>谢春花.png</string>
 		<key>lrc</key>
 		<string>谢春花 - 雀斑少女.lrc</string>
@@ -79,6 +63,22 @@
 		<string>谢春花</string>
 		<key>album</key>
 		<string>雀斑少女</string>
+		<key>type</key>
+		<integer>2</integer>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>赵雷 - 南方姑娘.png</string>
+		<key>lrc</key>
+		<string>赵雷 - 南方姑娘.lrc</string>
+		<key>mp3</key>
+		<string>赵雷 - 南方姑娘.mp3</string>
+		<key>name</key>
+		<string>赵雷 - 南方姑娘</string>
+		<key>singer</key>
+		<string>赵雷</string>
+		<key>album</key>
+		<string>赵小雷</string>
 		<key>type</key>
 		<integer>2</integer>
 	</dict>
