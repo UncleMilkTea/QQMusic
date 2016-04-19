@@ -205,6 +205,8 @@
     
     _titleLabel.text = music.singer;
     
+    self.navigationItem.title = music.name;
+    
     _hBackGroundImage.image = [UIImage imageNamed:music.image];
     
     _imageView.image = _hBackGroundImage.image;
