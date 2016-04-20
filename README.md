@@ -30,7 +30,5 @@
 
 ## Author
 
-Weibo: [@确实草蛋][1]
-http://weibo.com/caoeggs/home
-
-Github: [houyukun][2]
+Weibo:[@老实人要刨你家祖坟了](http://weibo.com/caoeggs) 
+Github:[houyukun](https://github.com/houyukun) 
